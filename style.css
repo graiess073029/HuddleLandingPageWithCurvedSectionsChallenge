@@ -23,8 +23,12 @@ html,body,.root{
     flex-direction: column;
 }
 
-img[alt='curved']{
+.desktop , .mobile{
     width : 100vw
+}
+
+section.section1{
+    align-items : center;
 }
 
 @media screen and (min-width : 1200px ) {
