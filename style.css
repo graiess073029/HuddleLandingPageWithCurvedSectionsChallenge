@@ -23,11 +23,19 @@ html,body,.root{
     flex-direction: column;
 }
 
+img[alt='curved']{
+    width : 100vw
+}
+
 @media screen and (min-width : 1200px ) {
     .brd::before{
         content: "\a";
         white-space: pre;
     }
+
+    img[alt='illustration-screen-mockups']{
+        width : 75%;
+    } 
     
 }
 
